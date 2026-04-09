@@ -29,7 +29,7 @@ This repository contains code for:
 The overall pipeline of this repository is summarized below.
 
 <p align="center">
-  <img src="figures/workflow.png" width="950"/>
+  <img src="Figures/workflow.pdf" width="950"/>
 </p>
 
 <p align="center">
