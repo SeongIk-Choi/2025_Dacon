@@ -1,4 +1,4 @@
-name: DACON_Verification
+name: 2025_Dacon
 channels:
   - conda-forge
   - defaults
