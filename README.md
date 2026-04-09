@@ -112,7 +112,7 @@ Contains the final model scripts.
 - `Model_Inference_SVR_Tuning.py`  
   inference script for prediction on unseen samples
 
-### `figures/`
+### `Figures/`
 Contains figures used in the README.
 
 - `workflow.pdf`  
@@ -239,20 +239,6 @@ For reproducibility, please use:
 Differences in hardware, CUDA configuration, and package versions may lead to small differences in reproduced results.
 
 ---
-
-## Citation
-
-If you use this repository in your research, please cite the related study.
-
-```bibtex
-@misc{choi2025dacon,
-  title={SMILES-Based IC50 Prediction for ASK1 Inhibitors through Machine Learning},
-  author={SeongIk Choi},
-  year={2025},
-  note={Jump AI(.py) 2025: 3rd AI Drug Discovery Competition repository},
-  howpublished={GitHub repository}
-}
-```
 
 ---
 
