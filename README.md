@@ -29,7 +29,7 @@ This repository contains code for:
 The overall pipeline of this repository is summarized below.
 
 <p align="center">
-  <img src="Figures/workflow.pdf" width="950"/>
+  <img src="Figures/workflow.png" width="950"/>
 </p>
 
 <p align="center">
@@ -115,7 +115,7 @@ Contains the final model scripts.
 ### `Figures/`
 Contains figures used in the README.
 
-- `workflow.pdf`  
+- `workflow.png`  
   overview figure of the full ASK1 prediction pipeline
 
 ### `Dacon.yaml`
