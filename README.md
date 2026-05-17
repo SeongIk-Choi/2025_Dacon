@@ -63,6 +63,20 @@ A typical workflow consists of:
 │   ├── experiments_01_all_models.ipynb
 │   ├── experiments_02_svr_aug_vs_no_aug.ipynb
 │   └── experiments_03_svr_tuned_vs_svr_aug_only.ipynb
+├── Ablation Study/
+│   ├── Tox24
+│       ├── Dataset
+│           ├── Embeddings
+│               ├── npy files
+│           ├── csv files
+│       ├── Experiments
+│           ├── Ablation_A_encoder_comparison.py
+│           ├── Ablation_B_regressor_comparison.py
+│           ├── Ablation_C_augmentation.py
+│           ├── Ablation_D_tuning.py
+│           ├── Configuration_Result.ipynb
+│           ├── Tox24_preprocessing.ipynb
+│       ├── MolCLR
 ├── figures/
 │   └── workflow.png
 ├── Dacon.yaml
@@ -239,6 +253,12 @@ For reproducibility, please use:
 Differences in hardware, CUDA configuration, and package versions may lead to small differences in reproduced results.
 
 ---
+
+## Ablation Study
+
+Because the full ASK1 dataset used in the main study cannot be publicly redistributed due to data-use restrictions, we provide an additional ablation study using the publicly available Tox24 challenge dataset. This ablation study is intended to support transparency and reproducibility by allowing the proposed workflow to be evaluated on an openly accessible benchmark.
+
+The ablation workflow, provided under `Ablation Study/Tox24/`, evaluates the effects of encoder selection, regressor selection, embedding-level augmentation, and hyperparameter tuning. The corresponding scripts and summary notebook can be found in the `Experiments/` subdirectory.
 
 ---
 
